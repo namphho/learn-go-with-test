@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef6443b2-3ff0-47a6-8e79-f32707384a4f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/pointer_error/pointer_error.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pointer_error/pointer_error_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/structure_interface/shape.go" beforeDir="false" afterPath="$PROJECT_DIR$/structure_interface/shape.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/structure_interface/shape_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/structure_interface/shape_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,15 +42,7 @@
       <recent name="$PROJECT_DIR$/hello" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestSum in sum_test.go">
-    <configuration name="go build hello.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="task1" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/hello.go" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Test.TestWallet/Withdraw in pointer_error_test.go">
     <configuration name="TestHello in hello_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="task1" />
       <working_directory value="$PROJECT_DIR$" />
@@ -81,6 +73,16 @@
       <pattern value="^\QTestSum\E$" />
       <method v="2" />
     </configuration>
+    <configuration name="TestWallet/Withdraw in pointer_error_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="task1" />
+      <working_directory value="$PROJECT_DIR$/pointer_error" />
+      <framework value="gotest" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/pointer_error/pointer_error_test.go" />
+      <pattern value="^\QTestWallet\E$/^\QWithdraw\E$" />
+      <method v="2" />
+    </configuration>
     <configuration name="hello_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="task1" />
       <working_directory value="$PROJECT_DIR$" />
@@ -91,24 +93,35 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Go Build.go build hello.go" />
       <item itemvalue="Go Test.hello_test.go" />
       <item itemvalue="Go Test.TestHello in hello_test.go" />
       <item itemvalue="Go Test.TestHello/saying_hello_world,_when_string_is_empty in hello_test.go" />
       <item itemvalue="Go Test.TestSum in sum_test.go" />
+      <item itemvalue="Go Test.TestWallet/Withdraw in pointer_error_test.go" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestWallet/Withdraw in pointer_error_test.go" />
         <item itemvalue="Go Test.TestSum in sum_test.go" />
         <item itemvalue="Go Test.TestHello/saying_hello_world,_when_string_is_empty in hello_test.go" />
         <item itemvalue="Go Test.hello_test.go" />
         <item itemvalue="Go Test.TestHello in hello_test.go" />
-        <item itemvalue="Go Build.go build hello.go" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/pointer_error/pointer_error.go</url>
+          <line>35</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
