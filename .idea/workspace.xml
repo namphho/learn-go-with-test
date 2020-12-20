@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef6443b2-3ff0-47a6-8e79-f32707384a4f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pointer_error/pointer_error.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pointer_error/pointer_error_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/map/map.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/map/map_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,15 +42,15 @@
       <recent name="$PROJECT_DIR$/hello" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestWallet/Withdraw in pointer_error_test.go">
-    <configuration name="TestHello in hello_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.TestAdd/existing_word in map_test.go">
+    <configuration name="TestAdd/existing_word in map_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="task1" />
-      <working_directory value="$PROJECT_DIR$" />
+      <working_directory value="$PROJECT_DIR$/map" />
       <framework value="gotest" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/hello_test.go" />
-      <pattern value="^\QTestHello\E$" />
+      <filePath value="$PROJECT_DIR$/map/map_test.go" />
+      <pattern value="^\QTestAdd\E$/^\Qexisting_word\E$" />
       <method v="2" />
     </configuration>
     <configuration name="TestHello/saying_hello_world,_when_string_is_empty in hello_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -94,18 +94,18 @@
     </configuration>
     <list>
       <item itemvalue="Go Test.hello_test.go" />
-      <item itemvalue="Go Test.TestHello in hello_test.go" />
       <item itemvalue="Go Test.TestHello/saying_hello_world,_when_string_is_empty in hello_test.go" />
       <item itemvalue="Go Test.TestSum in sum_test.go" />
       <item itemvalue="Go Test.TestWallet/Withdraw in pointer_error_test.go" />
+      <item itemvalue="Go Test.TestAdd/existing_word in map_test.go" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestAdd/existing_word in map_test.go" />
         <item itemvalue="Go Test.TestWallet/Withdraw in pointer_error_test.go" />
         <item itemvalue="Go Test.TestSum in sum_test.go" />
         <item itemvalue="Go Test.TestHello/saying_hello_world,_when_string_is_empty in hello_test.go" />
         <item itemvalue="Go Test.hello_test.go" />
-        <item itemvalue="Go Test.TestHello in hello_test.go" />
       </list>
     </recent_temporary>
   </component>
@@ -120,6 +120,11 @@
           <url>file://$PROJECT_DIR$/pointer_error/pointer_error.go</url>
           <line>35</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/map/map_test.go</url>
+          <line>73</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
