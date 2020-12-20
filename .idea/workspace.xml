@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef6443b2-3ff0-47a6-8e79-f32707384a4f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/array/subtract.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/array/sum.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/array/sum_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structure_interface/shape.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structure_interface/shape_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
