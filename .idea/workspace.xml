@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef6443b2-3ff0-47a6-8e79-f32707384a4f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mocking/mock.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mocking/mock_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/concurrency.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/concurrency_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dependency_injection/dependency_injection.go" beforeDir="false" afterPath="$PROJECT_DIR$/dependency_injection/dependency_injection.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dependency_injection/dependency_injection_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/dependency_injection/dependency_injection_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
