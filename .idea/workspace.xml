@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef6443b2-3ff0-47a6-8e79-f32707384a4f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/concurrency/concurrency.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency/concurrency_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/select/select.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/select/select_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -90,9 +90,9 @@
     <list>
       <item itemvalue="Go Build.go build hello.go" />
       <item itemvalue="Go Build.go build dependency_injection.go" />
+      <item itemvalue="Go Build.go build mock.go" />
       <item itemvalue="Go Test.TestAdd/existing_word in map_test.go" />
       <item itemvalue="Go Test.TestCountDown in mock_test.go" />
-      <item itemvalue="Go Build.go build mock.go" />
     </list>
     <recent_temporary>
       <list>
