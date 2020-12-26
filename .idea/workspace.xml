@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef6443b2-3ff0-47a6-8e79-f32707384a4f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/map/map.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/map/map_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependency_injection/dependency_injection.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependency_injection/dependency_injection_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/hello.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/hello_test.go" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +44,23 @@
       <recent name="$PROJECT_DIR$/hello" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestAdd/existing_word in map_test.go">
+  <component name="RunManager" selected="Go Build.go build dependency_injection.go">
+    <configuration name="go build dependency_injection.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="task1" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/dependency_injection/dependency_injection.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build hello.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="task1" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/hello/hello.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <configuration name="TestAdd/existing_word in map_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="task1" />
       <working_directory value="$PROJECT_DIR$/map" />
@@ -51,16 +69,6 @@
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$/map/map_test.go" />
       <pattern value="^\QTestAdd\E$/^\Qexisting_word\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestHello/saying_hello_world,_when_string_is_empty in hello_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="task1" />
-      <working_directory value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/hello_test.go" />
-      <pattern value="^\QTestHello\E$/^\Qsaying_hello_world,_when_string_is_empty\E$" />
       <method v="2" />
     </configuration>
     <configuration name="TestSum in sum_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -83,29 +91,20 @@
       <pattern value="^\QTestWallet\E$/^\QWithdraw\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="hello_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="task1" />
-      <working_directory value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/hello_test.go" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Go Test.hello_test.go" />
-      <item itemvalue="Go Test.TestHello/saying_hello_world,_when_string_is_empty in hello_test.go" />
       <item itemvalue="Go Test.TestSum in sum_test.go" />
       <item itemvalue="Go Test.TestWallet/Withdraw in pointer_error_test.go" />
       <item itemvalue="Go Test.TestAdd/existing_word in map_test.go" />
+      <item itemvalue="Go Build.go build hello.go" />
+      <item itemvalue="Go Build.go build dependency_injection.go" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build dependency_injection.go" />
+        <item itemvalue="Go Build.go build hello.go" />
         <item itemvalue="Go Test.TestAdd/existing_word in map_test.go" />
         <item itemvalue="Go Test.TestWallet/Withdraw in pointer_error_test.go" />
         <item itemvalue="Go Test.TestSum in sum_test.go" />
-        <item itemvalue="Go Test.TestHello/saying_hello_world,_when_string_is_empty in hello_test.go" />
-        <item itemvalue="Go Test.hello_test.go" />
       </list>
     </recent_temporary>
   </component>
